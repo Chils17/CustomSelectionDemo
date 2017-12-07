@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_10dp"
+        tools:context="com.example.chiragpatel.recyclerwithcursordemo.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Hobby"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/sp28" />
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="@dimen/dimen_6dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGrey" />
+
+            <TextView
+                android:id="@+id/txt_Cricket"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="Cricket"
+                android:textColor="@color/colorWhiteSmoke"
+                android:textSize="@dimen/sp18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="@dimen/dimen_6dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGrey" />
+
+            <TextView
+                android:id="@+id/txt_Football"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="Football"
+                android:textColor="@color/colorWhiteSmoke"
+                android:textSize="@dimen/sp18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="@dimen/dimen_6dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGrey" />
+
+            <TextView
+                android:id="@+id/txt_Chess"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="Chess"
+                android:textColor="@color/colorWhiteSmoke"
+                android:textSize="@dimen/sp18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="@dimen/dimen_6dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGrey" />
+
+            <TextView
+                android:id="@+id/txt_Hockey"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="Hockey"
+                android:textColor="@color/colorWhiteSmoke"
+                android:textSize="@dimen/sp18" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="@color/colorGrey"
+        android:text="Submit"
+        android:textColor="@color/colorWhiteSmoke" />
+</RelativeLayout>
